@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    background: linear-gradient(
+      92.23deg,
+      rgb(251, 37, 118) 21.43%,
+      /* rgb(51, 47, 208) 50.63%, */
+      rgb(0, 2, 161) 100%,
+      rgba(255, 86, 246, 0.51) 117.04%
+    );
+    box-shadow: 0px 4.42184px 107.23px rgba(251, 37, 118,0.4);
+  }
+  
+  .btn:hover {
+    background: linear-gradient(
+      92.23deg,
+      rgba(255, 86, 246, 0.51) 21.43%,
+      rgb(0, 2, 161) 100%,
+      /* rgb(51, 47, 208) 100%, */
+      rgb(251, 37, 118) 117.04%
+    );
+  }
+
+  
+  .gradient,
+  .active {
+    background: linear-gradient(
+      92.23deg,
+      rgb(251, 37, 118) 41.43%,
+      rgb(0, 2, 161) 110%,
+      #ff56f6 17.04%
+    );
+  }
+  
+  .active {
+    color: #fff;
+    padding: 1rem;
+    border-radius: 100%;
+  }
+  
+  @layer base {
+    body {
+      @apply font-secondary text-lg leading-8 text-white;
+    }
+    .h2 {
+      @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
+    }
+    .h3 {
+      @apply font-primary text-[26px] mb-6 leading-[46px];
+    }
+    .btn {
+      @apply rounded-full font-tertiary text-white font-medium;
+    }
+    .btn-sm {
+      @apply h-[48px] px-6 text-sm;
+    }
+    .btn-lg {
+      @apply h-[56px] px-10 text-base;
+    }
+    .btn-link {
+      @apply text-base;
+    }
+  
+    .section {
+      @apply py-8 lg:py-24 lg:h-screen flex items-center;
+    }
+  }
+  
