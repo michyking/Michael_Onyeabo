@@ -37,7 +37,7 @@ function About() {
             </p>
           </div>
           {/* image */}
-          <div className="hidden lg:flex flex-1 max-w-[492px]  mx-auto mix-blend-lighten">
+          <div className="mix-blend-lighten">
             <img src={image} alt="" />
           </div>
         </div>

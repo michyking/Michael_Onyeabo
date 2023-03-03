@@ -7,13 +7,11 @@ import Projects from './Components/Projects'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Certificate from './Components/Certificate'
-import Header from './Components/Header'
 
 
 function App() {
   return (
     <div className="bg-site overflow-hidden">
-      <Header/>
       <Nav/>
       <Hero/>
       <About/>
