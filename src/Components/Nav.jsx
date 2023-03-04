@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 
 function Nav() {
   return (
-    <nav className="fixed bottom-5 w-full overflow-hidden z-50">
+    <nav className="fixed bottom-2 w-full overflow-hidden z-50">
       <div className="container mx-auto">
         <div className="w-full bg-white/20 h-[65px] flex backdrop-blur-2xl 
         rounded-full max-w-[460px] border-white/40 border-[2px]
@@ -31,7 +31,7 @@ function Nav() {
             duration={800}
             // A test spy is a function that records arguments, return value, the value of this and exception thrown (if any) for all its calls
             spy={true}
-            offset={-200}
+            offset={-50}
             className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center"
           >
             <RiContactsFill />

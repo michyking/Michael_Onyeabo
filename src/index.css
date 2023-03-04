@@ -42,10 +42,10 @@
   
   @layer base {
     body {
-      @apply font-secondary text-lg leading-8 text-white;
+      @apply font-secondary text-[1.1rem] leading-8 text-white;
     }
     .h2 {
-      @apply font-primary text-[32px] md:text-[52px] mb-6 tracking-[10%] uppercase;
+      @apply font-primary text-[30px] md:text-[48px] mb-6 tracking-[10%] uppercase;
     }
     .h3 {
       @apply font-primary text-[26px] mb-6 leading-[46px];
@@ -64,7 +64,7 @@
     }
   
     .section {
-      @apply py-8 lg:py-24 lg:h-screen flex items-center;
+      @apply py-8 lg:py-20 lg:h-screen flex items-center;
     }
   }
   
