@@ -27,7 +27,8 @@ module.exports = {
       colors: {
         primary: "rgb(251, 37, 118)",
         secondary: "rgb(0, 2, 161)",
-        site: "rgb(11, 2, 19)"
+        site: "rgb(11, 2, 19)",
+        sitebg: "rgb(12, 1, 30)"
       },
       backgroundImage: {
         main: "url('./src/assets/main.png')",

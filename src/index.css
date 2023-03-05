@@ -31,6 +31,7 @@
       rgb(251, 37, 118) 41.43%,
       rgb(0, 2, 161) 110%,
       #ff56f6 17.04%
+      rgb(12, 0, 30)
     );
   }
   
@@ -45,7 +46,7 @@
       @apply font-secondary text-[1.1rem] leading-8 text-white;
     }
     .h2 {
-      @apply font-primary text-[30px] md:text-[48px] mb-6 tracking-[10%] uppercase;
+      @apply font-primary text-[30px] md:text-[42px] mb-6 tracking-[10%] uppercase;
     }
     .h3 {
       @apply font-primary text-[26px] mb-6 leading-[46px];
@@ -56,15 +57,21 @@
     .btn-sm {
       @apply h-[48px] px-6 text-sm;
     }
+    .btn-sm1 {
+      @apply h-[48px] px-6 text-sm border rounded-full;
+    }
     .btn-lg {
       @apply h-[56px] px-10 text-base;
     }
     .btn-link {
       @apply text-base;
     }
-  
-    .section {
-      @apply py-8 lg:py-20 lg:h-screen flex items-center;
+    .bg-secondary {
+      @apply bg-[];
     }
+  
+    /* .section {
+      @apply py-8 lg:py-20 lg:h-screen flex items-center;
+    } */
   }
   

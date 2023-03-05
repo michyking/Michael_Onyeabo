@@ -25,9 +25,9 @@ function Hero() {
   }, [])
 
   return (
-    <section className="h-screen py-5 lg:py-0 place-items-center" id="hero">
+    <section className="h-screen py-8 place-items-center" id="hero">
       <div className="container mx-auto ">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-x-8 lg:gap-x-0">
+        <div className="flex flex-col lg:flex-row items-center justify-between lg:gap-x-0">
           <div className="hidden lg:flex flex-1 max-w-[450px] mx-auto mix-blend-lighten"  data-aos="fade-down">
             {/* image */}
             <img src={main} alt="Micahel Onyeabo" />
