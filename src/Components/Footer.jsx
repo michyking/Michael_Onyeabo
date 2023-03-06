@@ -16,7 +16,7 @@ function Footer() {
               <a href="https://web.facebook.com/michael.onyeabo.161" className=' hover:text-primary'><FaFacebookSquare/></a>
               <a href="https://github.com/michyking" className=' hover:text-primary'><AiFillGithub/></a>
           </div>
-          <p>(c) All rights reserved 2023</p>
+          <p>(c) All rights reserved 2022</p>
         </div>
       </div>
     </section>
