@@ -69,12 +69,6 @@
     .form {
       @apply bg-transparent border border-primary outline-none rounded-md w-[300px] lg:w-[500px] px-4 py-3;
     }
-    .form::placeholder {
-      @apply pr-5;
-    }
   
-    /* .section {
-      @apply py-8 lg:py-20 lg:h-screen flex items-center;
-    } */
   }
   

@@ -3,14 +3,16 @@ import React, { useEffect, useRef } from "react";
 // icons
 import { MdEmail } from "react-icons/md";
 import { BsMessenger } from "react-icons/bs";
+import { FaAngleUp } from "react-icons/fa";
 
 // AOS
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// emailjs 
-import emailjs from '@emailjs/browser';
+// emailjs
+import emailjs from "@emailjs/browser";
 
+import { Link } from "react-scroll";
 
 function Contact() {
   useEffect(() => {
@@ -27,19 +29,28 @@ function Contact() {
   const submitHandler = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_hnx5mjd', 'template_o597dnn', form.current, '1Hnpq7tbrb48p7VS4')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_hnx5mjd",
+        "template_o597dnn",
+        form.current,
+        "1Hnpq7tbrb48p7VS4"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
-      e.target.reset 
+        }
+      );
+    e.target.reset();
   };
 
   return (
     <section className="my-16" id="contact">
       <div className="container mx-auto">
-        <div className="" data-aos="fade-up">
+        <div className="" >
           <h1 className="h2 mb-11 lg:mb-24 text-center">Contact info</h1>
           <div className="flex items-center justify-between flex-col lg:flex-row">
             {/* social media links */}
@@ -105,13 +116,24 @@ function Contact() {
                   rows="5"
                   className="form "
                   placeholder="Your Message"
-                  name='message'
+                  name="message"
                 ></textarea>
                 <button className="btn btn-sm">Send message</button>
               </form>
             </div>
           </div>
         </div>
+        {/* Top icon */}
+        <Link
+          className="flex items-center justify-center gap-x-2 text-primary 
+        font-semibold cursor-pointer text-lg my-14 hover: hover:text-white"
+          to="head"
+          smooth={true}
+          duration={800}
+        >
+          <p className=" ">Back to top</p>
+          <FaAngleUp />
+        </Link>
       </div>
     </section>
   );

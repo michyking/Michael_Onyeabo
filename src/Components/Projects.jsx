@@ -32,7 +32,7 @@ function Projects() {
           {/* first project */}
           <div
             className="flex flex-col lg:flex-row items-center justify-between gap-y-5 lg:gap-x-16 mb-14 lg:mb-24"
-            data-aos="fade-up"
+            
           >
             {/* image */}
             <div className="flex-1">
@@ -65,7 +65,7 @@ function Projects() {
           {/* second project */}
           <div
             className="flex flex-col lg:flex-row items-center justify-between gap-y-5 lg:gap-x-16 mb-14 lg:mb-24"
-            data-aos="fade-up"
+            
           >
             {/* image */}
             <div className="flex-1">
@@ -99,7 +99,7 @@ function Projects() {
           {/* third project */}
           <div
             className="flex flex-col lg:flex-row items-center justify-between gap-y-5 lg:gap-x-16 mb-14 lg:mb-24"
-            data-aos="fade-up"
+           
           >
             {/* image */}
             <div className="flex-1">

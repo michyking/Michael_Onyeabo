@@ -22,14 +22,14 @@ function About() {
   }, [])
 
   return (
-    <section className="section  place-items-center" id="about">
+    <section className=" place-items-center lg:mb-24" id="about">
       <div className="container mx-auto">
         <div
-          className="lg:text-center lg:gap-y-0 h-screen flex justify-between
-        flex-col-reverse lg:flex-row "
+          className="lg:text-center lg:gap-y-0 flex justify-between
+        flex-col-reverse lg:flex-row " 
         >
           {/* text */}
-          <div className="flex-1 text-center px-4 flex flex-col items-center "  data-aos="fade-right">
+          <div className="flex-1 text-center px-4 flex flex-col items-center "  >
             <h3 className="text-primary text-[20px] mb-3">Get to Know</h3>
             <h1 className="h2">About Me</h1>
             <p className="text-left lg:text-justify">
@@ -54,7 +54,7 @@ function About() {
             </p>
           </div>
           {/* image */}
-          <div className="hidden lg:flex flex-1 max-h-[450px] mx-auto mix-blend-lighten"  data-aos="fade-left">
+          <div className="hidden lg:flex flex-1 max-h-[450px] mx-auto mix-blend-lighten"  >
             <img src={image} alt="" />
           </div>
         </div>

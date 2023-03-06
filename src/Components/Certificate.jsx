@@ -21,7 +21,7 @@ function Certificate() {
   }, []);
 
   return (
-    <section className="section bg-sitebg py-10" data-aos="fade-up">
+    <section className="section bg-sitebg py-10">
       <div className="container mx-auto">
         <div>
           <h1 className="h2 text-center mb-11 lg:mb-24">certification</h1>
