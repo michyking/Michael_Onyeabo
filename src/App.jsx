@@ -1,6 +1,5 @@
 import React from 'react'
 
-// import Nav from './Components/Nav'
 import Hero from './Components/Hero'
 import About from './Components/About'
 import Projects from './Components/Projects'
@@ -13,7 +12,6 @@ import Header from './Components/Header'
 function App() {
   return (
     <div className="bg-site overflow-hidden">
-      {/* <Nav/> */}
       <Header/>
       <Hero/>
       <About/>

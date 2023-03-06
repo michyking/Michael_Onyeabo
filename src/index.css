@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  scroll-behavior: smooth;
+}
+
 .btn {
     background: linear-gradient(
       92.23deg,
@@ -23,23 +27,6 @@
     );
   }
 
-  
-  .gradient,
-  .active {
-    background: linear-gradient(
-      92.23deg,
-      rgb(251, 37, 118) 41.43%,
-      rgb(0, 2, 161) 110%,
-      #ff56f6 17.04%
-      rgb(12, 0, 30)
-    );
-  }
-  
-  .active {
-    color: #fff;
-    padding: 1rem;
-    border-radius: 100%;
-  }
   
   @layer base {
     body {

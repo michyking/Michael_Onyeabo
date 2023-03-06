@@ -48,7 +48,7 @@ function Contact() {
   };
 
   return (
-    <section className="my-16" id="contact">
+    <section className="my-16" id="contact" data-aos="fade-up">
       <div className="container mx-auto">
         <div className="" >
           <h1 className="h2 mb-11 lg:mb-24 text-center">Contact info</h1>
@@ -66,7 +66,7 @@ function Contact() {
                 <p>onyeabomichael00@gmail.com</p>
                 <a
                   href="mailto:onyeabomichael00@gmail.com"
-                  className="text-primary mt-3"
+                  className="text-primary mt-3 hover:text-yellow-50"
                 >
                   Send a message
                 </a>
@@ -82,7 +82,7 @@ function Contact() {
                 <p>Michael Onyeabo</p>
                 <a
                   href="https://m.me/michael.onyeabo.161"
-                  className="text-primary mt-3"
+                  className="text-primary mt-3 hover:text-yellow-50"
                 >
                   Send a message
                 </a>

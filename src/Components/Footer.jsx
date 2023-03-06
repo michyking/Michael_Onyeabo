@@ -1,7 +1,7 @@
 import React from 'react'
 
 // icons
-import { AiFillLinkedin, AiFillInstagram, AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { FaFacebookSquare, } from "react-icons/fa";
 
@@ -14,7 +14,7 @@ function Footer() {
               <a href="https://www.linkedin.com/in/michael-onyeabo-4113231b7/" className=' hover:text-primary'><AiFillLinkedin/></a>
               <a href="https://twitter.com/michaelonyeabo" className=' hover:text-primary'><BsTwitter/></a>
               <a href="https://web.facebook.com/michael.onyeabo.161" className=' hover:text-primary'><FaFacebookSquare/></a>
-              <a href="" className=' hover:text-primary'><AiFillGithub/></a>
+              <a href="https://github.com/michyking" className=' hover:text-primary'><AiFillGithub/></a>
           </div>
           <p>(c) All rights reserved 2023</p>
         </div>

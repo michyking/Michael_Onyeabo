@@ -23,7 +23,7 @@ function Projects() {
   }, []);
 
   return (
-    <section className="my-24 md:my-0" id="projects">
+    <section className="my-24 md:my-0">
       <div className="container mx-auto">
         <div className="bg-sitebg w-full rounded-md py-10 mb-5">
           <h1 className="h2 text-center">Featured Projects</h1>
@@ -32,11 +32,11 @@ function Projects() {
           {/* first project */}
           <div
             className="flex flex-col lg:flex-row items-center justify-between gap-y-5 lg:gap-x-16 mb-14 lg:mb-24"
-            
+            data-aos="fade-up"
           >
             {/* image */}
             <div className="flex-1">
-              <img src={project1} alt="" className="rounded-md lg:max-w-xl" />
+              <img src={project1} alt="" className="rounded-md lg:max-w-xl hover:scale-110 transition-all duration-1000" />
             </div>
             {/* text */}
             <div className="flex-1 ">
@@ -57,19 +57,19 @@ function Projects() {
                   <button className="btn btn-sm">Live Demo</button>
                 </a>
                 <a href="https://github.com/Etinhandy/group-1-team-3">
-                  <button className="btn-sm1">Github</button>
+                  <button className="btn-sm1 hover:border-primary">Github</button>
                 </a>
               </div>
             </div>
           </div>
           {/* second project */}
           <div
-            className="flex flex-col lg:flex-row items-center justify-between gap-y-5 lg:gap-x-16 mb-14 lg:mb-24"
-            
+            className="flex flex-col lg:flex-row items-center justify-between gap-y-5 lg:gap-x-16 mb-14 lg:mb-24 "
+            data-aos="fade-up"
           >
             {/* image */}
             <div className="flex-1">
-              <img src={project3} alt="" className="rounded-md lg:max-w-xl" />
+              <img src={project3} alt="" className="rounded-md lg:max-w-xl hover:scale-110 transition-all duration-1000" />
             </div>
             {/* text */}
             <div className="flex-1 ">
@@ -91,7 +91,7 @@ function Projects() {
                   <button className="btn btn-sm">Live Demo</button>
                 </a>
                 <a href="https://github.com/michyking/shoppingList">
-                  <button className="btn-sm1">Github</button>
+                  <button className="btn-sm1 hover:border-primary">Github</button>
                 </a>
               </div>
             </div>
@@ -99,11 +99,11 @@ function Projects() {
           {/* third project */}
           <div
             className="flex flex-col lg:flex-row items-center justify-between gap-y-5 lg:gap-x-16 mb-14 lg:mb-24"
-           
+            data-aos="fade-up"
           >
             {/* image */}
             <div className="flex-1">
-              <img src={project2} alt="" className="rounded-md lg:max-w-xl" />
+              <img src={project2} alt="" className="rounded-md lg:max-w-xl hover:scale-110 transition-all duration-1000" />
             </div>
             {/* text */}
             <div className="flex-1 ">
@@ -124,7 +124,7 @@ function Projects() {
                   <button className="btn btn-sm">Live Demo</button>
                 </a>
                 <a href="https://github.com/michyking/Simple-calculator">
-                  <button className="btn-sm1">Github</button>
+                  <button className="btn-sm1 hover:border-primary">Github</button>
                 </a>
               </div>
             </div>

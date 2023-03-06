@@ -22,7 +22,7 @@ function About() {
   }, [])
 
   return (
-    <section className=" place-items-center lg:mb-24" id="about">
+    <section className=" place-items-center lg:mb-24" data-aos="fade-up">
       <div className="container mx-auto">
         <div
           className="lg:text-center lg:gap-y-0 flex justify-between

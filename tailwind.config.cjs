@@ -30,10 +30,6 @@ module.exports = {
         site: "rgb(11, 2, 19)",
         sitebg: "rgb(12, 1, 30)"
       },
-      backgroundImage: {
-        main: "url('./src/assets/main.png')",
-        
-      },
     },
   },
   plugins: [],
